@@ -1,0 +1,107 @@
+function General() {
+			//Unten, damit ich leichter testen kann. 
+			
+			var b;
+			b = document.getElementById("Stückkoste").value;
+			b = inputReader(b);
+			document.getElementById("Stückkosten").innerHTML = b;
+			
+			var c;
+			c = document.getElementById("Stückanzah").value;
+			c = inputReader(c);
+			document.getElementById("Stückanzahl").innerHTML = c;
+			
+			var d;
+			d = document.getElementById("FertigungslöhneA").value;
+			d = inputReader(d);
+			document.getElementById("Fertigungslöhne A").innerHTML = d;
+			
+			var e;
+			e = document.getElementById("FertigungsgemeinkostenA").value;
+			e = inputReader(e);
+			document.getElementById("Fertigungsgemeinkosten A").innerHTML = e;
+			
+			var f;
+			f = document.getElementById("FertigungslöhneB").value;
+			f = inputReader(f);
+			document.getElementById("Fertigungslöhne B").innerHTML = f;
+			
+			var g;
+			g = document.getElementById("FertigungsgemeinkostenB").value;
+			g = inputReader(g);
+			document.getElementById("Fertigungsgemeinkosten B").innerHTML = g;
+		
+			var h;
+			h = document.getElementById("FertigungslöhneC").value;
+			h = inputReader(h);
+			document.getElementById("Fertigungslöhne C").innerHTML = h;
+			
+			var i;
+			i = document.getElementById("FertigungslöhneC").value;
+			i = inputReader(i);
+			document.getElementById("Fertigungslöhne C").innerHTML = i;
+
+			var j;
+			j = document.getElementById("FertigungsgemeinkostenC").value;
+			j = inputReader(j);
+			document.getElementById("Fertigungsgemeinkosten C").innerHTML = j;
+			
+			var k;
+			y = document.getElementById("Maschinenstunde").value;
+			y = inputReader(y);
+			document.getElementById("Maschinenstunden").innerHTML = y;
+			
+			
+			var l;
+			l = document.getElementById("Maschinenstundensat").value;
+			l = inputReader(l);
+			document.getElementById("Maschinenstundensatz").innerHTML = l;
+			
+			
+			var m;
+			m = document.getElementById("Verwaltungskoste").value;
+			m = inputReader(m);
+			document.getElementById("Verwaltungskosten").innerHTML = m;
+			
+			
+			var n;
+			n = document.getElementById("Verwaltungsgemeinkoste").value;
+			n = inputReader(n);
+			document.getElementById("Verwaltungsgemeinkosten").innerHTML = n;
+			
+			
+			var o;
+			o = document.getElementById("Vertriebskoste").value;
+			o = inputReader(o);
+			document.getElementById("Vertriebskosten").innerHTML = o;
+			
+			
+			var p;
+			p = document.getElementById("Vertriebsgemeinkoste").value;
+			p = inputReader(p);
+			document.getElementById("Vertriebsgemeinkosten").innerHTML = p;
+			
+			
+			var q;
+			q = document.getElementById("Rabat").value;
+			q = inputReader(q);
+			document.getElementById("Rabatt").innerHTML = q;
+			
+			var r;
+			r = document.getElementById("Skont").value;
+			r = inputReader(r);
+			document.getElementById("Skonto").innerHTML = r;
+
+			var a;
+			a = document.getElementById("Materialeinzelkoste").value;
+			a = inputReader(a);
+			document.getElementById("Materialeinzelkosten").innerHTML = a;
+
+			}
+
+			function filler(){
+				var filler = "M";
+				document.getElementById("Materialeinzelkosten1").innerHTML = filler;
+			}
+			
+		</script>
