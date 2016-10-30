@@ -1,4 +1,27 @@
-function General() {
+<script>
+			function inputReader(input) {
+	var output = 0;
+	var numbers = ["1","2","3","4","5","6","7","8","9","0"];
+	for (i=0; i < input.length; i++) {
+		var char = input.slice(i,i+1);
+		if (numbers.indexOf(char) === -1){
+			;
+		}
+		else{
+			var position = numbers.indexOf(char);
+			var value = numbers[position];
+			output = output + char;
+		}
+	}
+	output = Number(output);
+	return output;
+  }
+
+			
+				
+							  
+
+			function General() {
 			//Unten, damit ich leichter testen kann. 
 			
 			var b;
@@ -99,9 +122,5 @@ function General() {
 
 			}
 
-			function filler(){
-				var filler = "M";
-				document.getElementById("Materialeinzelkosten1").innerHTML = filler;
-			}
 			
 		</script>
